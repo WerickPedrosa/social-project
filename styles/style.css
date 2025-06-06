@@ -39,3 +39,22 @@ iframe#screen {
 
     border-radius: 32px;
 }
+
+section#social-medias {
+    text-align: right;
+}
+
+section#social-medias > a > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.600);
+    box-sizing: border-box;
+}
+
+section#social-medias > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.605);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform .5s;
+}
